@@ -1,0 +1,41 @@
+body{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.title{
+    text-align: center;
+    font-size: 80px;
+}
+.ti{
+    padding-top: 20px;
+    display: flex;
+}
+.bold{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.bc{
+    font-size: 20px;
+    height: 30px;
+}
+.formcontact{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.content{
+    display: flex;
+}
+.icon{
+    padding-top: 40px;
+    padding-left: 30%;
+    display: flex;
+}
+.icons {
+    flex-direction: column;
+}
+.icon p{
+    font-size: 30px;
+    padding-left: 20px;
+}
